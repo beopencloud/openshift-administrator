@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: wildfly
+spec:
+  host: wildflytest.apps.beopenit.gukm.p1.openshiftapps.com
+  tls:
+    termination: edge
+  to:
+    kind: Service
+    name: wildfly
