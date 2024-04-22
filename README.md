@@ -1,1 +1,1 @@
-# openshift-DO280
+# openshift-administrator
