@@ -2,7 +2,6 @@ apiVersion: compliance.openshift.io/v1alpha1
 kind: ScanSettingBinding
 metadata:
   name: test-scan-ocp4
-  namespace: openshift-compliance
 profiles:
   - name: ocp4-cis
     kind: Profile
@@ -22,7 +21,6 @@ apiVersion: compliance.openshift.io/v1alpha1
 kind: ScanSettingBinding
 metadata:
   name: test-scan-rhcos
-  namespace: openshift-compliance
 profiles:
   - name: rhcos4-moderate
     kind: Profile
