@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: wildfly
 spec:
-  host: wildflytest.apps.beopenit.gukm.p1.openshiftapps.com
+  host: wildfly-<name>.apps.beopenit.eastus.aroapp.io
   tls:
     termination: edge
   to:
